@@ -1,0 +1,24 @@
+{
+  "name": "serviceordermanagement",
+  "description": "serviceordermanagement project",
+  "main": "index.js",
+  "authors": [
+    "prajwal"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/lib"
+  ],
+  "dependencies": {
+    "bootstrap-css": "~3.3.4"
+  }
+}
