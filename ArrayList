@@ -81,3 +81,16 @@ ArrayList v/s LinkedList
 2. Worst For Insertion/Deletion For Retraival
 
 3. Concequitive memory locations for data storage Not concequtive memory location
+
+Vector
+
+underlying datastructure is resizable or groable array
+InsertionOrder is preserved duplicates are allowed
+hetrogenious objects are allowed 
+it implements serializable clonable and random aceess interface
+Every method present in the vector is synchronised and hence vector object is thread safe
+
+Constructors:
+
+
+
