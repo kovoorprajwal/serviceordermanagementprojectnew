@@ -92,5 +92,9 @@ Every method present in the vector is synchronised and hence vector object is th
 
 Constructors:
 
+Vector v = new Vector(); Creates an Empty vector Obj with default capacity 10.Once vector reaches its max capacity then a new vector will be created with new capacity
+= cuurenrCap*2;
+
+
 
 
