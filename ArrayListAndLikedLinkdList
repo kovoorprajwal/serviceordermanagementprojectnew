@@ -1,0 +1,83 @@
+
+RandomAcess Interface - ArrayList and Vector implements this - any type Random elements acess with same speed.
+
+RandomAcess:
+
+java.util package
+
+its a marker interface as it dont contain any methods where required ability will be provided bt the jvm.
+
+All Collection FrameWork Classes Implement Serializable and Clonebale Interfaces but not RandomAccess Interface.
+
+If our frequent operation is the retrival then ArrayList is the best Choice.o(1)
+
+If our frequent operation is either insert or remove in middle then ArrayList is the best Choice.O( 
+
+So, in this worstCase we can go for LinkedList.
+
+ArrayList v/s Vector:
+
+1.ArrayList has every method as non - Synchronised  here all most all methods are thread safe.
+
+2.Not threadSafe   Thread Safe
+
+3.Performance is high Performance is low
+
+4. 1.2 version Non Legacy  1.0 Legacy 
+
+
+ArrayList (Synchronised Version) :
+
+ArrayList al = new ArrayList();
+List li = Collections.synchronisedList(al);
+
+public List synchronisedList(List l);
+
+Set and Map (Synchronised Version) :
+
+Use the below methods of Collections class
+
+public set synchronisedSet(Set l);
+public Map synchronisedMap(Map l);
+
+LinkedList : 
+
+[\][][]-><-[][][]-><-[][][]-><-[][][]
+koti    kukat  Abits
+        pally
+
+      <-[][][]-> can easily add, can easily remove
+
+If our frequent operation is the retrival then LinkedList is the Worst Choice.O(n)
+
+If our frequent operation is either insert or remove in middle then ArrayList is the best Choice.
+UnderLine dataStructure is DoublelyLinkedList
+Douplicate obj are allowed, hetrogeneous objects are allowed, null insertion is possible.
+
+LinkdList ll = new LinkedList(); --> empty LL
+
+LinkdList ll = new LinkedList(Collection c); --> equivalent Collection's LL
+
+Array and LinkedList can create Stack and Queues
+
+All class Specific methods:
+
+usually we can 
+Define addFirst(Object o) (void return type), addLast(Object O)(void return type), add(Object o), set(object 0)
+
+l.add("d");
+l.add(30);
+l.add(null);
+l.add("d");
+l.set(0,"s");
+l.add("d");
+l.addFirst("y");
+
+
+ArrayList v/s LinkedList
+
+1. For Retraival For Insertion/Deletion in between
+
+2. Worst For Insertion/Deletion For Retraival
+
+3. Concequitive memory locations for data storage Not concequtive memory location
